@@ -1,0 +1,52 @@
+2020-07-04 23:55:25,794 - Bot started working
+2020-07-04 23:55:26,199 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-04 23:55:27,419 - Updates were skipped successfully.
+2020-07-04 23:55:27,420 - Start polling.
+2020-07-05 00:14:51,967 - Bot started working
+2020-07-05 00:14:52,373 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:14:53,615 - Updates were skipped successfully.
+2020-07-05 00:14:53,616 - Start polling.
+2020-07-05 00:15:25,931 - Bot started working
+2020-07-05 00:15:26,291 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:15:27,490 - Updates were skipped successfully.
+2020-07-05 00:15:27,490 - Start polling.
+2020-07-05 00:15:28,294 - Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<Dispatcher._process_polling_updates() done, defined at D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:331> exception=AttributeError("'Message' object has no attribute 'send_photo'")>
+Traceback (most recent call last):
+  File "D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 339, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 194, in process_updates
+    return await asyncio.gather(*tasks)
+  File "D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 214, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "D:\Python study Projects\New_telegram_bot\venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:/Python study Projects/untitled/grambot.py", line 48, in send_rules
+    await message.send_photo(photo, caption="§£§à§ä §ä§Ñ§Ò§Ý§Ú§è§Ñ §ã§à §Ó§ã§Ö§Þ§Ú §Ù§ß§Ñ§é§Ö§ß§Ú§ñ§Þ§Ú")
+AttributeError: 'Message' object has no attribute 'send_photo'
+2020-07-05 00:17:32,032 - Bot started working
+2020-07-05 00:17:32,340 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:17:33,475 - Updates were skipped successfully.
+2020-07-05 00:17:33,475 - Start polling.
+2020-07-05 00:19:22,823 - Bot started working
+2020-07-05 00:19:26,195 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:19:28,042 - Updates were skipped successfully.
+2020-07-05 00:19:28,042 - Start polling.
+2020-07-05 00:58:13,891 - Bot started working
+2020-07-05 00:58:14,290 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:58:15,648 - Updates were skipped successfully.
+2020-07-05 00:58:15,649 - Start polling.
+2020-07-05 00:59:18,548 - Bot started working
+2020-07-05 00:59:18,913 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 00:59:20,358 - Updates were skipped successfully.
+2020-07-05 00:59:20,359 - Start polling.
+2020-07-05 01:00:24,679 - Bot started working
+2020-07-05 01:00:25,375 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 01:00:26,699 - Updates were skipped successfully.
+2020-07-05 01:00:26,700 - Start polling.
+2020-07-05 01:01:47,976 - Bot started working
+2020-07-05 01:01:48,463 - Bot: Bit_for_me [@Testing_bit_bot]
+2020-07-05 01:01:49,760 - Updates were skipped successfully.
+2020-07-05 01:01:49,761 - Start polling.
